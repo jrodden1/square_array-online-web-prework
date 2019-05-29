@@ -2,7 +2,8 @@ require 'pry'
 def square_array(array)
   output_array = []
   array.each do |forEach|
-    forEach**2 >> output_array
+    squared = forEach**2 
+    output_array << squared
   end
   binding.pry
   output_array
