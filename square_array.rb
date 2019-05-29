@@ -1,7 +1,6 @@
 def square_array(array)
   array.each do |forEach|
-    output = []
-    output.push(forEach**2)
-    output
+    array = forEach**2
+    array
   end
 end
